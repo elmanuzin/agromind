@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Nunito+Sans&family=Open+Sans&family=Rubik+Bubbles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #f5f5dc 16.62%, #e7e6e1 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.cabecalho-escrita {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 44px;
+}
+
+.cabecalho-menu-item {
+  font-family: "Nunito Sans", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  margin-bottom: 30px;
+  border-top: 0.4px solid #fff2e7;
+  padding: 32px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "Rubik Bubbles", cursive;
+  font-weight: 400;
+  font-size: 70px;
+  color: #008037;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #2f2325;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #fcefd0;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+  height: 470px;
+}
